@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import DefaultTheme from 'vitepress/theme'
 import { inBrowser } from 'vitepress'
 import { watch } from 'vue'
@@ -66,4 +67,12 @@ function updateHomePageStyle(value: boolean) {
     homePageStyle.remove()
     homePageStyle = undefined
   }
+=======
+import DefaultTheme from "vitepress/theme"
+
+import './style.css'
+
+export default {
+    extends: DefaultTheme,
+>>>>>>> 99e1fcf6bd2108b74bb2dc61d695e54ce4a3589a
 }
