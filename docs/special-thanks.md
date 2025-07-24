@@ -6,7 +6,7 @@
 - 部分数据来自于[知乎](https://zhuanlan.zhihu.com/p/472095411)
 - 部分数据来自于[Bilbil](https://www.bilibili.com/opus/814123588232675361)
 - 部分数据来自于[MCwiki](https://zh.minecraft.wiki/)
-- 部分数据来自于[简幻欢第三方文档](https://www.yuque.com/simpfox/simpdoc/playerdata)
+- 部分数据来自于[Simpfun-wiki](https://www.yuque.com/simpfox/simpdoc/playerdata)
 
 
 ## 本站点由XingZi_Nina负责
