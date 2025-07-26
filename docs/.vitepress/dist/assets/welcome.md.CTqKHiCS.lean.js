@@ -1,1 +1,0 @@
-import{_ as a,c as r,o as t,a0 as i}from"./chunks/framework.Bga1nt3p.js";const f=JSON.parse('{"title":"针对小白 的开服教程","description":"","frontmatter":{},"headers":[],"relativePath":"welcome.md","filePath":"welcome.md"}'),l={name:"welcome.md"};function n(o,e,s,h,p,c){return t(),r("div",null,e[0]||(e[0]=[i("",10)]))}const _=a(l,[["render",n]]);export{f as __pageData,_ as default};
