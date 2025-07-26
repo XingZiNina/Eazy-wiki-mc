@@ -4,7 +4,7 @@
 
 ## 通用参数
 
-和前面说过的一样, 在 [点击我生成优化参数](https://flags.sh/) 生成即可
+和前面说过的一样, 在 [点击我生成优化参数](https://paper.8aka.org/misc/tools/start-script-gen) 生成即可
 
 ## Java 发行版专用参数
 
