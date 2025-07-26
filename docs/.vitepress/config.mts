@@ -20,7 +20,6 @@ export default defineConfig({
         text: '🚀 开始',
         link: '/welcome',
         items: [
-          { text: '✨ 特别鸣谢', link: '/special-thanks' }
         ]
       },
       {
