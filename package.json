@@ -1,0 +1,34 @@
+{
+  "name": "EazyWiki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "mcserver-wiki"
+  },
+  "author": "XingZi_Nina",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.3",
+    "@unocss/preset-icons": "^66.3.3",
+    "busuanzi.pure.js": "^1.0.3",
+    "canvas-confetti": "^1.9.3",
+    "mermaid": "^11.8.1",
+    "unocss": "^66.3.3",
+    "vite": "^7.0.5",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid": "^2.0.17"
+  },
+  "dependencies": {
+    "@vueuse/core": "^13.5.0",
+    "vue": "^3.5.18"
+  }
+}
