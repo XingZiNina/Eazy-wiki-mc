@@ -161,7 +161,7 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
 
 ## 混合服务端
 
-接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge, Fabric) 同时对插件进行了支持
+接着介绍的是混合服务端, 这一类服务端在支持模组加载器 (ex. Forge, Fabric, NeoForge) 同时对插件进行了支持
 
 :::warning 警告
 混合服务端的兼容性均一般
@@ -200,6 +200,17 @@ ArcLight 是一款新兴的 Forge & Fabric 混合服务端, 更新非常快
 - 插件兼容性: 7
 - 版本支持: 8
 
+### Youer
+
+Youer 是一款兼容 NeoForge 的混合服务端, 由 Mohist 的开发团队进行开发, 可以理解为 NeoForge 版本的 Mohist
+
+下载链接: https://www.mohistmc.cn/download/youer
+
+评分:
+- 模组兼容性: 8
+- 插件兼容性: 5
+- 版本支持: 2
+
 ### SpongeForge
 
 SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼容性较好, 但是不支持 Bukkit & Spigot & Paper 插件
@@ -213,9 +224,9 @@ SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼�
 
 ### Banner
 
-Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行研发
+Banner 是一款 Fabric 混合端, 由 Mohist 的开发团队进行开发
 
-下载链接: (疑似删库, 无法从官方渠道下载)
+下载链接 (需要自行构建): https://github.com/wdog5734/Banner
 
 ### Cardboard
 
@@ -249,10 +260,10 @@ Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多
 
 - 1.8: PandaSpigot (PvP), SportPaper (生存服)
 - 1.12: Beast
-- 生电: Leaves > Paper > Purpur > Leaf
+- 生电: Leaves > Leaf > Purpur > Paper
 - 服务器CPU核心多(12+): LightingLuminol > Luminol > Folia > Canvas > Leaf > Purpur > Paper
 - 性能: Leaf > Purpur > Paper 
-- 性能+稳定性: Purpur > Leaf > Paper
+- 性能 + 稳定性: Purpur > Leaf > Paper
 - Forge混合端: CatServer > ArcLight > Mohist
 - Fabric混合端: Cardboard > Banner
 - 群组服: Velocity > Waterfall > BungeeCord
