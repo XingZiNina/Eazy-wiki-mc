@@ -87,7 +87,25 @@ export default defineConfig({
         ]
       },
       {
-        text: '进阶内容' // 数据库, 面板, Linux / Docker 的使用, 机器人, Minecraft 网络原理, Java 内存机制, 内网穿透
+        text: '进阶内容', // 数据库, Linux / Docker 的使用, 机器人, Minecraft 网络原理, Java 内存机制, 内网穿透
+        items: [
+          { text: 'Linux',
+            items: [
+              { text: '基本介绍', link: '/advanced/linux' },
+              { text: '常用命令', link: '/advanced/linux-command' }
+            ]
+          },
+          { text: '数据库',
+            items: [
+              { text: '基本介绍', link: '/advanced/database' },
+              { text: '数据类型', link: '/advanced/database-datatype' },
+              { text: '常用命令', link: '/advanced/database-command' },
+              { text: 'MySQL', link: '/advanced/mysql' },
+              { text: 'PostgreSQL', link: '/advanced/postgresql' },
+              { text: 'Redis', link: '/advanced/redis' }
+            ]
+          }
+        ]
       },
       {
         text: '插件开发'
