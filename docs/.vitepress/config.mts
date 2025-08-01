@@ -121,7 +121,11 @@ export default withMermaid(
           ]
         },
         {
-          text: '插件开发'
+          text: '插件开发',
+          items: [
+            { text: '基本知识', link: '/plugin-development/basic-knowledge' },
+            { text: '构建系统', link: '/plugin-development/building-system' },
+          ]
         }
       ],
 
