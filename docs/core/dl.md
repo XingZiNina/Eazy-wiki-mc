@@ -36,9 +36,9 @@ Velocity 是由 PaperMC 开发的一款全新高性能代理服务端, 支持多
 - 1.12: Beast
 - Paper系生电: Leaves > Paper > Purpur > Leaf
 - Folia系生电：Lophine > Mint > Folia
-- 服务器CPU核心多(12+): Mint > LightingLuminol > Luminol > Lophine > Folia > Canvas > Leaf > Purpur > Paper
-- 性能: Leaf > Purpur > Paper 
-- 性能+稳定性: Purpur > Leaf > Paper
+- 服务器CPU核心多(12+): Canvas > Mint > LightingLuminol > Luminol > Lophine > Folia > Leaf > Purpur > leaves > Paper
+- 优点: Leaf > Purpur > Paper 
+- 性能+缺点: Purpur > Leaf > Paper
 - Forge混合端: CatServer > ArcLight > Mohist
 - Fabric混合端: Cardboard > Banner
 - 群组服: Velocity > Waterfall > BungeeCord
