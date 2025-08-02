@@ -148,14 +148,14 @@ import java.util.List;
 public class Test {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>(); // 定义 ArrayList
-        list.add("a"); // List#add(E e) 添加元素 (E 是一个泛型, 代表你定义的列表的数据类型)
+        list.add("a"); // add(E e) 添加元素 (E 是一个泛型, 代表你定义的列表的数据类型)
         list.add("b");
         list.add("c");
-        System.out.println(list.size()); // List#size() 获取列表大小
-        System.out.println(list.get(0)); // List#get(int index) 获取指定索引处的元素
-        list.set(0, "x"); // List#set(int index, E element) 设置指定索引处的元素
-        list.remove(1); // List#remove(int index) 删除指定索引处的元素
-        list.clear(); // List#clear() 清空列表
+        System.out.println(list.size()); // size() 获取列表大小
+        System.out.println(list.get(0)); // get(int index) 获取指定索引处的元素
+        list.set(0, "x"); // set(int index, E element) 设置指定索引处的元素
+        list.remove(1); // remove(int index) 删除指定索引处的元素
+        list.clear(); // clear() 清空列表
         System.out.println(Arrays.toString(list.toArray())); // 打印列表内容 (格式为 [元素1, 元素2, 元素3])
     }
 }
@@ -172,14 +172,14 @@ import java.util.Set;
 public class Test {
     public static void main(String[] args) {
         Set<String> set = new HashSet<>(); // 定义 HashSet
-        set.add("a"); // Set#add(E e) 添加元素
+        set.add("a"); // add(E e) 添加元素
         set.add("b");
         set.add("c");
         set.add("a"); // 集合不允许存储重复元素, 所以这里不会添加
-        System.out.println(set.size()); // Set#size() 获取集合大小
-        System.out.println(set.contains("a")); // Set#contains(Object o) 判断是否包含指定元素
-        set.remove("b"); // Set#remove(Object o) 删除指定元素
-        set.clear(); // Set#clear() 清空集合
+        System.out.println(set.size()); // size() 获取集合大小
+        System.out.println(set.contains("a")); // contains(Object o) 判断是否包含指定元素
+        set.remove("b"); // remove(Object o) 删除指定元素
+        set.clear(); // clear() 清空集合
     }
 }
 ```
@@ -197,20 +197,20 @@ import java.util.concurrent.ConcurrentHashMap;
 public class Test {
     public static void main(String[] args) {
         Map<String, String> map = new HashMap<>(); // 定义 HashMap
-        map.put("a", "1"); // Map#put(K key, V value) 添加键值对
+        map.put("a", "1"); // put(K key, V value) 添加键值对
         map.put("b", "2");
         map.put("c", "3");
-        System.out.println(map.size()); // Map#size() 获取键值对数量
-        System.out.println(map.get("a")); // Map#get(Object key) 获取指定键对应的值
-        map.remove("b"); // Map#remove(Object key) 删除指定键对应的值
-        map.clear(); // Map#clear() 清空键值对
-        Set<String> keys = map.keySet(); // Map#keySet() 获取所有键的无须集合
-        Set<String> values = map.values(); // Map#values() 获取所有值的无须集合
+        System.out.println(map.size()); // size() 获取键值对数量
+        System.out.println(map.get("a")); // get(Object key) 获取指定键对应的值
+        map.remove("b"); // remove(Object key) 删除指定键对应的值
+        map.clear(); // clear() 清空键值对
+        Set<String> keys = map.keySet(); // keySet() 获取所有键的无须集合
+        Set<String> values = map.values(); // values() 获取所有值的无须集合
         Map<String, String> newMap = new ConcurrentHashMap<>(); // 定义 ConcurrentHashMap (线程安全的 HashMap, 适用于多线程环境)
-        newMap.putAll(map); // ConcurrentHashMap#putAll(Map<? extends K,? extends V> m) 批量添加键值对
-        System.out.println(newMap.containsKey("a")); // ConcurrentHashMap#containsKey(Object key) 判断是否包含指定键
-        System.out.println(newMap.containsValue("1")); // ConcurrentHashMap#containsValue(Object value) 判断是否包含指定值
-        System.out.println(newMap.getOrDefault("d", "default")); // ConcurrentHashMap#getOrDefault(Object key, V defaultValue) 获取指定键对应的值, 如果不存在则返回默认值
+        newMap.putAll(map); // putAll(Map<? extends K,? extends V> m) 批量添加键值对
+        System.out.println(newMap.containsKey("a")); // containsKey(Object key) 判断是否包含指定键
+        System.out.println(newMap.containsValue("1")); // containsValue(Object value) 判断是否包含指定值
+        System.out.println(newMap.getOrDefault("d", "default")); // getOrDefault(Object key, V defaultValue) 获取指定键对应的值, 如果不存在则返回默认值
     }
 }
 ```

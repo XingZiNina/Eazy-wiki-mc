@@ -8,9 +8,21 @@
 
 Maven 是 Java 开发中一个成熟稳定的构建系统, 它的标准化程度较强, 明确定义了项目结构, 依赖关系和构建的过程 (生命周期), 它以 `pom.xml` 作为构建系统的配置文件
 
-这是常见的 `pom.xml` 文件结构:
+## Gradle
 
-```xml
+Gradle 是另一个基于 Groovy / Kotlin 的构建系统, 相比 Maven 更加灵活, 可以配置更复杂的构建流程, 速度相比 Maven 也更快 它以 `build.gradle` (Groovy DSL) / `build.gradle.kts` (Kotlin DSL) 作为构建系统的配置文件, `gradle.properties` 作为属性配置文件, `settings.gradle` (Groovy DSL) / `settings.gradle.kts` (Kotlin DSL) 作为项目的一些设置的配置文件
+
+:::info 信息
+Groovy DSL 和 Kotlin DSL 是 Gradle 两种不同的 DSL 语言, 它们的语法和语义不同, 但它们的目标是相同的, 都是为了简化构建脚本的编写
+
+如今来说, 推荐使用 Kotlin DSL, 因为它更加简洁, 功能更强大
+:::
+
+## 常见的构建系统文件结构
+
+:::code-group
+
+```xml [pom.xml]
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -85,19 +97,27 @@ Maven 是 Java 开发中一个成熟稳定的构建系统, 它的标准化程度
 </project>
 ```
 
-## Gradle
+```groovy [build.gradle]
+plugins { // 使用的插件
+    id 'java' // 默认插件 (支持 java)
+    id 'com.gradleup.shadow' version '8.3.5' // 用于将依赖打包到 jar 包的插件
+}
 
-Gradle 是另一个基于 Groovy / Kotlin 的构建系统, 相比 Maven 更加灵活, 可以配置更复杂的构建流程, 速度相比 Maven 也更快 它以 `build.gradle` (Groovy DSL) / `build.gradle.kts (Kotlin DSL)` 作为构建系统的配置文件, `gradle.properties` 作为属性配置文件, `settings.gradle` 作为项目的一些设置的配置文件
+group = 'top.alazeprt.aqqbot' // 项目包名
+version = '1.0-SNAPSHOT' // 项目版本
 
-:::info 信息
-Groovy DSL 和 Kotlin DSL 是 Gradle 两种不同的 DSL 语言, 它们的语法和语义不同, 但它们的目标是相同的, 都是为了简化构建脚本的编写
+repositories { // 项目依赖的仓库
+    mavenCentral() // 官方默认仓库
+    maven { url 'https://jitpack.io' } // JitPack 仓库 
+    mavenLocal() // 本地仓库
+}
 
-如今来说, 推荐使用 Kotlin DSL, 因为它更加简洁, 功能更强大
-:::
+dependencies { // 项目依赖
+    compileOnly('top.alazeprt.aonebot:AOneBot:1.0-SNAPSHOT') // 依赖的项目 (包名:项目名:版本)
+}
+```
 
-这是常见的 `build.gradle.kts` 文件结构:
-
-```kotlin
+```kotlin [build.gradle.kts]
 plugins { // 使用的插件
     id("java") // 默认插件 (支持 java)
     id("com.gradleup.shadow") version "8.3.5" // 用于将依赖打包到 jar 包的插件
@@ -117,6 +137,8 @@ dependencies { // 项目依赖
 }
 ```
 
+:::
+
 ## 依赖的引入
 
 一般来说, 你需要引入的依赖可能会直接提供现成的 `build.gradle.kts` 或 `pom.xml` 文件, 此时你可以直接复制它们到你的项目中
@@ -135,8 +157,10 @@ dependencies { // 项目依赖
 
 此时, 你需要提取出所需要的仓库 (Repository 部分的 URL) 和 依赖 (Dependency 部分), 并根据上述的格式进行导入
 
-pom.xml 导入如下:
-```xml
+:::code-group
+
+
+```xml [pom.xml]
 <!-- 将这段内容添加到 <repositories> 标签中 -->
 <repository>
     <id>papermc</id>
@@ -152,9 +176,20 @@ pom.xml 导入如下:
 </dependency>
 ```
 
-build.gradle.kts 导入如下:
+```groovy [build.gradle]
+repositories { // 项目依赖的仓库
+    mavenCentral() // 官方默认仓库
+    maven { url 'https://repo.papermc.io/repository/maven-public/' } // 仓库地址, 根据上面的 Repository 的 URL 填
+}
 
-```kotlin
+dependencies { // 项目依赖
+    compileOnly('com.velocitypowered:velocity-api:3.4.0-SNAPSHOT') // 依赖的项目 (包名:项目名:版本), 这里使用 compileOnly (仅编译时需要使用)
+}
+
+
+```
+
+```kotlin [build.gradle.kts]
 repositories { // 项目依赖的仓库
     maven("https://repo.papermc.io/repository/maven-public/") // 根据上面的 Repository 的 URL 填
 }

@@ -125,6 +125,8 @@ export default withMermaid(
           items: [
             { text: '基本知识', link: '/plugin-development/basic-knowledge' },
             { text: '构建系统', link: '/plugin-development/building-system' },
+            { text: 'Spigot 插件结构', link: '/plugin-development/spigot-structure'},
+            { text: 'JavaDoc', link: '/plugin-development/javadoc' },
           ]
         }
       ],
