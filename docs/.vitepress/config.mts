@@ -127,6 +127,7 @@ export default withMermaid(
             { text: '构建系统', link: '/plugin-development/building-system' },
             { text: 'Spigot 插件结构', link: '/plugin-development/spigot-structure'},
             { text: 'JavaDoc', link: '/plugin-development/javadoc' },
+            { text: 'Paper 插件结构', link: '/plugin-development/paper-structure' },
           ]
         }
       ],

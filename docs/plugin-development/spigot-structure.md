@@ -30,6 +30,53 @@
 引入依赖的教程来自 [Spigot Maven](https://www.spigotmc.org/wiki/spigot-maven/) 和 [Spigot Gradle](https://www.spigotmc.org/wiki/spigot-gradle/)
 :::
 
+:::code-group
+
+
+```xml [pom.xml]
+<!-- 将这段内容添加到 <repositories> 标签中 -->
+<repository>
+    <id>spigot-repo</id>
+    <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+</repository>
+
+<!-- 将这段内容添加到 <dependencies> 标签中 -->
+<dependency>
+    <groupId>org.spigotmc</groupId>
+    <artifactId>spigot-api</artifactId>
+    <version>1.16.5-R0.1-SNAPSHOT</version> <!-- 可以根据自己需求修改版本 -->
+    <scope>provided</scope>
+</dependency>
+```
+
+```groovy [build.gradle]
+repositories {
+    // 将下面的内容添加到 repositories 代码块中
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    // 将下面的内容添加到 dependencies 代码块中
+    compileOnly('org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT') // 可以根据自己需求修改版本
+}
+
+
+```
+
+```kotlin [build.gradle.kts]
+repositories {
+    // 将下面的内容添加到 repositories 代码块中
+    maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
+}
+
+dependecies {
+    // 将下面的内容添加到 dependencies 代码块中
+    compileOnly("org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT") // 可以根据自己需求修改版本
+}
+```
+
+:::
+
 ## 插件信息配置
 
 Spigot 插件的基本信息配置在 `plugin.yml` 中, 它包含以下信息:

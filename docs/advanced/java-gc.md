@@ -19,8 +19,9 @@ Java 的内存分为 程序计数器, Java 虚拟机栈, Java 堆, 方法区 四
 ```mermaid
 flowchart LR
     新对象-->|分配|Eden
-    Eden & S0-->|Minor GC 垃圾回收|S1 & 被释放
-    Eden & S1-->|Minor GC 垃圾回收|S0 & 被释放
+    S0-->|Minor GC 垃圾回收|S1 & 被释放
+    S1-->|Minor GC 垃圾回收|S0 & 被释放
+    Eden-->|Minor GC 垃圾回收|S0 & S1 & 被释放
     S0 & S1-->|Major GC 垃圾回收|老年代 & 被释放
     S0 & S1-->|存活够久|老年代
 ```

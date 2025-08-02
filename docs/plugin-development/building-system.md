@@ -191,6 +191,7 @@ dependencies { // 项目依赖
 
 ```kotlin [build.gradle.kts]
 repositories { // 项目依赖的仓库
+    mavenCentral() // 官方默认仓库
     maven("https://repo.papermc.io/repository/maven-public/") // 根据上面的 Repository 的 URL 填
 }
 
@@ -198,6 +199,8 @@ dependecies { // 项目依赖
     compileOnly("com.velocitypowered:velocity-api:3.4.0-SNAPSHOT") // 根据上面的 Dependency 的信息填, 这里使用 compileOnly (仅编译时需要使用)
 }
 ```
+
+:::
 
 :::tip 提示
 Gradle 中引入依赖的 implementation, compileOnly 这些都是什么意思?
