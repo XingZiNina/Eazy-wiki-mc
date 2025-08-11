@@ -16,16 +16,9 @@ export default defineConfig({
     ],
 
     sidebar: [
-      { 
-        text: '🚀 开始',
-        link: '/welcome',
-        items: [
-        ]
-      },
       {
         text: '📚 基本概念',
         items: [
-          { text: '☕ Java', link: '/basic-knowledge/java' },
           { text: '🌳 环境变量', link: '/basic-knowledge/environment-variables' },
           { text: '💰 选择服务器', link: '/basic-knowledge/server' },
           { text: '🌐 IP知识', link: '/basic-knowledge/ip' },
@@ -44,11 +37,18 @@ export default defineConfig({
         ]
       },
       {
+        text: '🍰 Java参数与优化',
+        items: [
+          { text: '☕ Java', link: '/basic-knowledge/java' },
+          { text: '🍟 JVM 优化', link: '/server-maintenance/jvm-optimization' },
+          { text: '🫓 Java 内存机制', link: '/advanced/java-gc' },
+          { text: '👀 JavaDoc', link: '/plugin-development/javadoc' }
+        ]
+      },
+      {
         text: '🧩 插件准备',
         items: [
-          { text: '🔍 寻找并安装插件', link: '/prepare-plugin/looking-for-plugin' },
-          { text: '🏆 常用插件介绍', link: '/prepare-plugin/common-plugin' },
-          { text: '⚙️ 配置插件', link: '/prepare-plugin/configuring-plugin' },
+          { text: '🔍 常用插件与安装', link: '/prepare-plugin/common-plugin' },
           { 
             text: '🔐 权限管理',
             items: [
@@ -76,6 +76,7 @@ export default defineConfig({
       {
         text: '⚙️ 配置文件',
         items: [
+          { text: '⚙️ 配置插件', link: '/prepare-plugin/configuring-plugin' },
           { text: '📜 server.properties', link: '/config-file/server.properties'},
           { text: '🧱 Bukkit & Spigot', link: '/config-file/bukkit-and-spigot' },
           { text: '📜 类 Paper 服务端', link: '/config-file/paper-and-subcore' },
@@ -94,7 +95,6 @@ export default defineConfig({
       {
         text: '服务器维护',
         items: [
-          { text: '🍟JVM 优化', link: '/server-maintenance/jvm-optimization' },
           { text: '🎍报错分析', link: '/server-maintenance/error-analysis' },
           { text: '🫓性能分析', link: '/server-maintenance/performance-analysis' },
           { text: '🏡面板搭建', link: '/server-maintenance/panel-building' },
@@ -131,9 +131,7 @@ export default defineConfig({
             ]
           },
           { text: 'QQ 机器人', link: '/advanced/qq-bot'},
-          { text: 'Minecraft 网络通信', link: '/advanced/minecraft-network'},
-          { text: 'Java 内存机制', link: '/advanced/java-gc' },
-          { text: '自建内网穿透', link: '/advanced/frp' }
+          { text: 'Minecraft 网络通信', link: '/advanced/minecraft-network'}
         ]
       },
       {
@@ -142,8 +140,7 @@ export default defineConfig({
           { text: '基本知识', link: '/plugin-development/basic-knowledge' },
           { text: '构建系统', link: '/plugin-development/building-system' },
           { text: 'Spigot 插件结构', link: '/plugin-development/spigot-structure'},
-          { text: 'Paper 插件结构', link: '/plugin-development/paper-structure' },
-          { text: 'JavaDoc', link: '/plugin-development/javadoc' },
+          { text: 'Paper 插件结构', link: '/plugin-development/paper-structure' }
         ]
       }
     ]

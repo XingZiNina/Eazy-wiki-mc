@@ -218,3 +218,29 @@
 缩写: mm
 
 一款常用于创建自定义实体的插件, 功能丰富
+
+## 常见的插件下载网站
+
+以下是一些常见的插件下载网站:
+
+| 网站名称                                                                           | 资源数量 | 是否付费 | 介绍                                                     |
+|--------------------------------------------------------------------------------|------|------|--------------------------------------------------------|
+| [Bukkit](https://dev.bukkit.org/)                                              | 25k+ | 否    | Minecraft 服务器插件论坛的开山鼻祖, 许多远古的插件都可以在这里下载到               |
+| [SpigotMC](https://www.spigotmc.org/resources/)                                | 80k+ | 部分   | Minecraft 最大的插件论坛, 最流行的插件论坛之一                          |
+| [Hangar](https://hangar.papermc.io/)                                           | 2k+  | 否    | 由 PaperMC 团队维护的插件下载网站, 主要提供 Velocity 服务端的插件和一些流行插件     |
+| [Modrinth](https://modrinth.com/plugins/)                                      | 5k+  | 否    | 一个新兴的 Minecraft 资源下载网站, 许多资源 (如模组, 资源包, 数据包) 都可以在这里下载到 |
+| [CurseForge](https://www.curseforge.com/minecraft/search?class=bukkit-plugins) | 10k+ | 否    | 一个老牌 Minecraft 资源下载网站, 许多资源 (如模组, 资源包, 数据包) 都可以在这里下载到  |
+| [BuiltByBit](https://builtbybit.com/resources/categories/minecraft-plugins.1)  | 4k+  | 是    | 一个 Minecraft 付费插件下载网站                                  |
+| [Polymart](https://polymart.org/)                                              | 7k+  | 大部分  | 一个 Minecraft 付费插件下载网站                                  |
+| [GitHub](https://github.com/)                                                  | ∞    | 否    | 世界上最大的开源社区, 里面也有许多 Minecraft 插件                        |
+| [MineBBS](https://www.minebbs.com/resources/categories/70/)                    | 2k+  | 否    | 一个国内的 Minecraft 论坛, 有许多 Minecraft 的国创资源                |
+
+## 安装插件
+
+在下载好插件后, 你会发现一般插件是以 `.jar` 为后缀, 你需要将他们放入服务器根目录下的 `plugins` 文件夹中, 然后重启服务器, 即可启动插件
+
+:::warning 警告
+如果你是群组服, 需要检查插件 Wiki / 文档 查看要安装在哪里 (如有些在代理服务端 (proxy/proxies server) 和子服都要安装, 有些只需安装在代理服务端)
+
+如果你找不到插件的 Wiki / 文档, 参见 [配置插件](./configuring-plugin.md) 部分
+:::
