@@ -1,7 +1,7 @@
 # Minecraft 网络通信
 
 :::warning 注意
-本文仅针对 Minecraft Java 版的网络通信展开赘述
+本文仅针对 Minecraft Java 版的网络通信展开讲述
 :::
 
 Minecraft 使用 TCP 协议进行网络通信, 它的服务端和客户端分离, 客户端和服务端之间通过发包进行通信 (你的单人游戏相当于开启了一个迷你服务端)
@@ -14,7 +14,7 @@ Minecraft 使用 TCP 协议进行网络通信, 它的服务端和客户端分离
 
 接着我们来看看 Minecraft 客户端与服务端建立连接的全过程:
 
-```mermaid
+```txt
 sequenceDiagram
 Note over 客户端,服务端: 握手 (Handshake) 过程
 客户端->>服务端: ID: 0x00, 内容: 切换协议到登录

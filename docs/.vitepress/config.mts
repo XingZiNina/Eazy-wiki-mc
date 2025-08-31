@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "从入门到入土的教程",
+  title: "一站通式服主文档",
   description: "Easywiki",
   
   head: [
@@ -11,8 +11,7 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: '🏠 首页', link: '/' },
-      { text: '📚 文档', link: '/welcome' }
+      { text: '🏠 首页', link: '/' }
     ],
 
     sidebar: [
