@@ -16,21 +16,11 @@
 混合服务端的兼容性均一般
 :::
 
-:::danger 注意
-**评分仅供参考, 相对来说不太精准 (尤其是混合端的以及稳定性评分), 最好直接看服务端推荐板块**
-:::
-
 ## CatServer
 
-CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模组的兼容性最好
+CatServer 是一款 Forge 混合服务端, 在同类中对 Bukkit 和 Forge 模组的兼容性最好 但版本较低
 
 下载链接: https://catmc.org/
-
-评价:
-- 模组兼容性: 9/10
-- 插件兼容性: 8/10
-- 版本支持: 4/10
-- 版本适配速度: 较慢
 
 ## Youer
 
@@ -38,47 +28,23 @@ Youer 是一款兼容 NeoForge 的混合服务端， 由 Mohist 的开发团队�
 
 下载链接： https://www.mohistmc.cn/download/youer
 
-评价:
-- 模组兼容性: 6/10
-- 插件兼容性： 暂仅支持 Spigot Api 插件， 后续开发将支持 Paper Api 插件
-- 版本支持: 目前仅 1.21.1
-- 版本适配速度: 慢
-
 ## Mohist
 
-Mohist 是一款 Forge 混合服务端, 更新
+Mohist 是一款 Forge 混合服务端, 更新较快，稳定性较强
 
 下载链接: https://www.mohistmc.cn/download/mohist
 
-评价:
-- 模组兼容性: 7/10
-- 插件兼容性: 5/10
-- 版本支持: 6/10
-- 版本适配速度: 较快
-
 ## ArcLight
 
-ArcLight 是一款新兴的 Forge & Fabric 混合服务端
+ArcLight 是一款新兴的 Forge & Fabric 混合服务端，稳定性较强
 
 下载链接: https://arclight.izzel.io/
-
-评价:
-- 模组兼容性: 8/10
-- 插件兼容性: 6/10
-- 版本支持: 8/10
-- 版本适配速度: 快
 
 ## SpongeForge
 
 SpongeForge 与 SpongeVanilla 一样均是 Sponge 插件生态的服务端, 兼容性较好, 但是不支持 Bukkit & Spigot & Paper 插件
 
 下载链接: https://spongepowered.org/downloads/spongeforge
-
-评价:
-- 模组兼容性: 9.5/10
-- 插件兼容性: (Sponge插件) 8/(类Bukkit插件) 0/10
-- 版本支持: 8/10
-- 版本适配速度: 快
 
 ## Banner
 
