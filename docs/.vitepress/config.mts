@@ -48,6 +48,7 @@ export default defineConfig({
         text: '🧩 插件准备',
         items: [
           { text: '🔍 常用插件与安装', link: '/prepare-plugin/common-plugin' },
+          { text: '🗡️ QQ 机器人搭建', link: '/advanced/qq-bot'},
           { 
             text: '🔐 权限管理',
             items: [
@@ -98,7 +99,8 @@ export default defineConfig({
           { text: '🫓性能分析', link: '/server-maintenance/performance-analysis' },
           { text: '🏡面板搭建', link: '/server-maintenance/panel-building' },
           { text: '🛡️反作弊', link: '/server-maintenance/anticheat' },
-          { text: '🧑‍💼安全防御', link: '/server-maintenance/security-defense' }
+          { text: '🧑‍💼安全防御', link: '/server-maintenance/security-defense' },
+          { text: '🌐Mc网络通信', link: '/advanced/minecraft-network'}
         ]
       },
       {
@@ -128,9 +130,7 @@ export default defineConfig({
               { text: '常用指令', link: '/advanced/docker-command' },
               { text: '网络', link: '/advanced/docker-network' },
             ]
-          },
-          { text: 'QQ 机器人', link: '/advanced/qq-bot'},
-          { text: 'Minecraft 网络通信', link: '/advanced/minecraft-network'}
+          }
         ]
       },
       {
