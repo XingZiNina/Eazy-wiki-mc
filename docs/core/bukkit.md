@@ -66,21 +66,21 @@ Leaves 基于 Paper 开发, 以生电为其功能亮点, 加入了许多对生�
 下载链接: https://leavesmc.org/downloads/all
 
 优点与缺点:
-- 优点: 恢复Paper破坏的诸多特性 添加许多Mod协议支持
-- 缺点: 生电和性能不可得兼 且只能进行轻度生电 具体效果仍不如Fabric＋地毯及其附属
+- 优点: 恢复Paper破坏的诸多特性 添加许多Mod协议支持 在新版本引入"锂"优化
+- 缺点: 在重度生电下仍推荐Fabric＋地毯及其附属 在开启性能优化后可能会导致稳定性下降
 - 版本适配速度: 较慢
-> 轻生电Leaves
-> 重生电Fabric(模组端)
+> 轻中度生电Leaves
+> 重度生电Fabric(模组端)
 
 ## Leaf
 
-Leaf 基于 Gale (基于 Paper 开发的一个小众服务端) 开发, 以性能优化为主, 针对异步性能优化加入了许多配置项
+Leaf 基于 Gale (基于 Paper 开发的服务端) 开发, 以性能优化为主, 针对异步性能优化加入了许多配置项
 
 下载链接: https://www.leafmc.one/download
 
 优点与缺点:
 - 优点: 性能优化强悍 对一些功能进行异步处理
-- 缺点: 稳定性欠佳 且生电特性不太友好
+- 缺点: 稳定性欠佳 且生电特性不太友好 在某些情况下会导致~~10X Slower doge~~
 - 版本适配速度: 快
 > 异步运算 需在配置文件开启
 
@@ -107,3 +107,11 @@ Akarin 是一款支持多线程的 Minecraft 服务端，来自 “新维度”�
 - Forge混合端: CatServer > ArcLight > Mohist
 - Fabric混合端: Cardboard > Banner
 - 群组服: Velocity > Waterfall > BungeeCord
+
+## 调侃机翻
+- 啊啊啊啊啊 我的机翻要boom了 Leaf Leaves Folia都是 叶/叶子
+- 啊啊啊啊啊 我的机翻要boom了 Bukkit 是 布基特
+- 啊啊啊啊啊 我的机翻要boom了 Fabric 是 织布
+- 啊啊啊啊啊 我的机翻要boom了 Neoforge 是 新锻造
+- 啊啊啊啊啊 我的机翻要boom了 Forge 是 伪造
+- 啊啊啊啊啊 我的机翻要boom了 Vanilla 是 香草 ~~听的我香乱草人~~

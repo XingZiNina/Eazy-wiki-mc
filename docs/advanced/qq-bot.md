@@ -24,6 +24,14 @@ OneBot 框架->>插件: 收到xxx的消息
 所以 在此更推荐Lagrange框架
 :::
 
+:::warning 注意
+目前腾讯已全面管控带有bot特征的账号 因利用弱密码钻空子 恶意发布不当言论
+近段时间请不要再使用任何非官方Bot 以免带来账号以及财产损失！
+:::
+
+### 2025.9.5 公网 OneBot 服务遭攻击事件杂谈
+[点我查看相关事件文章！！！](https://wesley-young.github.io/2025-09-05-attack-on-onebot-service)
+
 ## 推荐
 
 ### [AQQBot](https://www.minebbs.com/resources/aqqbot.9921/)

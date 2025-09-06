@@ -13,6 +13,8 @@
 
 让我们探索前方的区域吧!
 
+# 今日份meme
+![DogeMCmeme](..\assets\image\mcmeme.png)
 
 # 特别鸣谢
 
