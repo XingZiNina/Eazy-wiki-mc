@@ -41,7 +41,7 @@ export default defineConfig({
           { text: '☕ Java', link: '/basic-knowledge/java' },
           { text: '🍟 JVM 优化', link: '/server-maintenance/jvm-optimization' },
           { text: '🫓 Java 内存机制', link: '/advanced/java-gc' },
-          { text: '👀 JavaDoc', link: '/plugin-development/javadoc' }
+          { text: '👀 JavaDoc', link: '/server-maintenance/javadoc' }
         ]
       },
       {
@@ -131,15 +131,6 @@ export default defineConfig({
               { text: '网络', link: '/advanced/docker-network' },
             ]
           }
-        ]
-      },
-      {
-        text: '💻 插件开发',
-        items: [
-          { text: '基本知识', link: '/plugin-development/basic-knowledge' },
-          { text: '构建系统', link: '/plugin-development/building-system' },
-          { text: 'Spigot 插件结构', link: '/plugin-development/spigot-structure'},
-          { text: 'Paper 插件结构', link: '/plugin-development/paper-structure' }
         ]
       }
     ]

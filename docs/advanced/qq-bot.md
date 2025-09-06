@@ -49,3 +49,7 @@ alazeprt编写的 QQ 机器人插件, 基于 OneBot 协议, 同时支持 Velocit
 ### [PlumBot](https://modrinth.com/plugin/plumbot)
 
 新兴的 QQ 机器人插件，基于 go-cqhttp 协议，功能更加丰富，不过稳定性较差
+
+### [GUGUbot](https://www.minebbs.com/resources/aqqbot.9921/)
+
+基于MCDR框架编写的 QQ 机器人插件, 基于 OneBot 协议, 因框架优秀 支持vanilla-Fabric通用 功能丰富
