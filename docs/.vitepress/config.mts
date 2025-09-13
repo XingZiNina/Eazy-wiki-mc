@@ -22,7 +22,7 @@ export default defineConfig({
           { text: '💰 选择服务器', link: '/basic-knowledge/server' },
           { text: '🌐 IP知识', link: '/basic-knowledge/ip' },
           { text: '🌏 关于世界', link: '/basic-knowledge/world' },
-          { text: '🪄 其它(推荐观看)', link: '/basic-knowledge/others' }
+          { text: '🪄 其他知识必看', link: '/basic-knowledge/others' }
         ]
       },
       {

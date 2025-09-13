@@ -48,5 +48,11 @@ java -jar server.jar
 ## 实用工具
 - [支持超 16 款格式 识别导入CSS渐变](https://mcg.tuanzi.ink/)
 - [180 个线性渐变的免费集合 支持Css复制](https://webgradients.com/)
-- [Minecraft 服务器状态图生成器](https://motd.puddingkc.com/generate.html)
+- [萌计时器](https://moe.8845.top/)
+- [NBTExplorer编辑器](https://github.com/jaquadro/NBTExplorer)
+- [Amulet超好用的mc地形编辑器](https://www.amuletmc.com/)
 - [MCSManager管理面板](https://www.mcsmanager.com/)
+- [翼龙管理面板](https://pterodactyl.top/)
+- [OmniTrack单端口也能用的面板插件](https://github.com/YYDSQAQ1024/OmniTrack)
+- [Voxesis新一代管理面板](https://gitee.com/Maskviva/voxesis)
+- [Opanel插件管理面板](https://github.com/opanel-mc/opanel)
