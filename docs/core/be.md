@@ -34,10 +34,11 @@
 ### 主流分支核心
 | 核心名称       | 支持游戏版本 | 链接   |JAVA版本| 状态   |
 |----------------|--------------|---------|---------|---------|
-| NukkitX   |1.21.93 | https://www.minebbs.com/resources/nukkitx.32/|17＋| 活跃|
+| NukkitX   |最新 | https://www.minebbs.com/resources/nukkitx.32/|17＋| 活跃|
 | Nukkit-MOT(需自己构建)|1.21.93|https://github.com/MemoriesOfTime/Nukkit-MOT |17＋|活跃| 
-| PowerNukkitX|  1.21.93|https://github.com/PowerNukkitX/PowerNukkitX|17＋|活跃|
-| PetterM1Edition|1.21.93 | https://github.com/PetteriM1/NukkitPetteriM1Edition/|17＋|活跃| 
+| PowerNukkitX|  最新|https://github.com/PowerNukkitX/PowerNukkitX|17＋|活跃|
+| PetterM1Edition|最新 | https://github.com/PetteriM1/NukkitPetteriM1Edition/|17＋|活跃| 
+| Lumi|最新 | https://github.com/KoshakMineDEV/Lumi/|21＋|活跃|
 
 ## Allay
 - **定位**​​：划时代的MCBE服务端软件
