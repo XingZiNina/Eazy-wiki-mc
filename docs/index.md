@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: "Easywiki: 被构建用来帮助萌新/小白开服"
+title: "Easywiki简单开服文档"
 
 hero:
   name: "Easywiki"

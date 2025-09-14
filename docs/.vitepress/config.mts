@@ -22,7 +22,7 @@ export default defineConfig({
           { text: '💰 选择服务器', link: '/basic-knowledge/server' },
           { text: '🌐 IP知识', link: '/basic-knowledge/ip' },
           { text: '🌏 关于世界', link: '/basic-knowledge/world' },
-          { text: '🪄 其他知识必看', link: '/basic-knowledge/others' }
+          { text: '🪄 其他概念', link: '/basic-knowledge/others' }
         ]
       },
       {
@@ -30,18 +30,17 @@ export default defineConfig({
         items: [
           { text: '🍋 Paper系为主', link: '/core/bukkit' },
           { text: '🍇 Folia系为主', link: '/core/folia' },
-          { text: '🍍 Mod与插件为主', link: '/core/mod-plugin' },
+          { text: '🍍 Mod与Plugins混合为主', link: '/core/mod-plugin' },
           { text: '🍉 代理服务端为主', link: '/core/dl' },
-          { text: '🍅 基岩版本为主', link: '/core/be' }
+          { text: '🍅 Bds与Nukkit为主', link: '/core/be' }
         ]
       },
       {
         text: '🍰 Java参数与优化',
         items: [
-          { text: '☕ Java', link: '/basic-knowledge/java' },
-          { text: '🍟 JVM 优化', link: '/server-maintenance/jvm-optimization' },
-          { text: '🫓 Java 内存机制', link: '/advanced/java-gc' },
-          { text: '👀 JavaDoc', link: '/server-maintenance/javadoc' }
+          { text: '☕ Java 发行版对比', link: '/basic-knowledge/java' },
+          { text: '🍟 Java 参数优化', link: '/server-maintenance/jvm-optimization' },
+          { text: '👀 Java Doc', link: '/server-maintenance/javadoc' }
         ]
       },
       {
