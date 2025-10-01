@@ -48,17 +48,6 @@ Mint 基于 Folia，致力于提供更好的整体性能和原版机制
 - 版本适配速度: 快
 > 明日新星 国人团队发力了
 
-## LemonMint
-LemonMint 基于 Mint，努力让更多的Bukkit插件能够运行
-
-下载链接: https://github.com/MenthaMC/LemonMint/
-
-优点与缺点:
-- 优点: 插件兼容性有所提升
-- 缺点: 这类强兼服务端 稳定性差是通病
-- 版本适配速度: 快
-> 唯一的好处是在Mint的基础上努力让更多的Bukkit插件能够运行，并且在原基础上修复被破坏的特性和改进性能、并添加独特的特性
-
 ## Lophine
 Lophine是Luminol的下游分支，旨在 Folia 上实现更多生电的内容以及更多的功能
 
