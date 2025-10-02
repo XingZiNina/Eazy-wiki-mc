@@ -81,6 +81,13 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
       在此借用某大佬B站的一句话
         要性能就选mint，要功能就选luminol，要生电就选lophine
 
+## Traium
+Traium 前身为MenthaMC项目体系的LemonMint，因某些原因退出MenthaMC，成为独立的项目
+
+下载链接: https://github.com/TraiumMC/Traium/
+
+- 版本适配速度: 快
+> 该服务端目前是刚起步的状态，虽然有LemonMint的牢本，但是依旧是一穷二白（
 
 ## 服务端推荐
 
