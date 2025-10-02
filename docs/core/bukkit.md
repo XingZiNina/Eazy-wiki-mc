@@ -84,14 +84,6 @@ Leaf 基于 Gale (基于 Paper 开发的服务端) 开发, 以性能优化为主
 - 版本适配速度: 快
 > 异步运算 需在配置文件开启
 
-## Traium
-Traium 前身为MenthaMC项目体系的LemonMint，因某些原因退出MenthaMC，成为独立的项目
-
-下载链接: https://github.com/CoderFrish/Traium/
-
-- 版本适配速度: 快
-> 该服务端目前是刚起步的状态，虽然有LemonMint的牢本，但是依旧是一穷二白（
-
 ## Horizon
 
 Purpur 的一个分支，旨在恢复原版功能和优化 缝合了Leaf＋Leaves＋Canvas＋pufferfish
