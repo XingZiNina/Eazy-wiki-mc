@@ -1,8 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "一站通式服主文档",
-  description: "Easywiki",
+  title: "🌿 一站通式服主文档",
+  description: "Easywiki - 清新明了的Minecraft服务器指南",
   
   head: [
     ['link', { rel: 'icon', href: '/moon.ico' }],
@@ -16,120 +16,77 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '📚 基本概念',
+        text: '🍀 服务器核心',
+        items: [
+          { text: '🍋 Paper系列', link: '/core/bukkit' },
+          { text: '🍇 Folia系列', link: '/core/folia' },
+          { text: '🍍 模组与插件混合', link: '/core/mod-plugin' },
+          { text: '🍉 代理服务端', link: '/core/dl' },
+          { text: '🍅 BDS与Nukkit', link: '/core/be' }
+        ]
+      },
+      {
+        text: '📚 基础知识',
         items: [
           { text: '🌳 环境变量', link: '/basic-knowledge/environment-variables' },
-          { text: '💰 选择服务器', link: '/basic-knowledge/server' },
-          { text: '🌐 IP知识', link: '/basic-knowledge/ip' },
-          { text: '🌏 关于世界', link: '/basic-knowledge/world' },
+          { text: '💰 服务器选择', link: '/basic-knowledge/server' },
+          { text: '🔅 Linux系统', link: '/advanced/linux' },
+          { text: '🌐 IP网络', link: '/basic-knowledge/ip' },
+          { text: '🌏 世界管理', link: '/basic-knowledge/world' },
           { text: '🪄 其他概念', link: '/basic-knowledge/others' }
         ]
       },
       {
-        text: '🍀 服务器核心',
+        text: '🔧 插件安装',
         items: [
-          { text: '🍋 Paper系为主', link: '/core/bukkit' },
-          { text: '🍇 Folia系为主', link: '/core/folia' },
-          { text: '🍍 Mod与Plugins混合为主', link: '/core/mod-plugin' },
-          { text: '🍉 代理服务端为主', link: '/core/dl' },
-          { text: '🍅 Bds与Nukkit为主', link: '/core/be' }
+          { text: '📦 常用插件推荐', link: '/prepare-plugin/common-plugin' },
+          { text: '⚡ QQ机器人快速搭建', link: '/advanced/qq-bot'},
+          { text: '📥 基岩插件推荐', link: '/prepare-plugin/bedrock-support/installing-plugin' },
+          { text: '⚙️ 基岩配置插件', link: '/prepare-plugin/bedrock-support/configuring-plugin' }
         ]
       },
       {
-        text: '🍰 Java参数与优化',
+        text: '🔐 权限管理',
         items: [
-          { text: '☕ Java 发行版对比', link: '/basic-knowledge/java' },
-          { text: '🍟 Java 参数优化', link: '/server-maintenance/jvm-optimization' },
-          { text: '👀 Java Doc', link: '/server-maintenance/javadoc' }
+          { text: '📖 基本概念', link: '/prepare-plugin/permission-management/basic-knowledge'},
+          { text: '💻 常用命令', link: '/prepare-plugin/permission-management/common-command' }
         ]
       },
       {
-        text: '🧩 插件准备',
+        text: '☕ Java优化',
         items: [
-          { text: '🔍 常用插件与安装', link: '/prepare-plugin/common-plugin' },
-          { text: '🗡️ QQ 机器人搭建', link: '/advanced/qq-bot'},
-          { 
-            text: '🔐 权限管理',
-            items: [
-              { text: '📖 基本概念', link: '/prepare-plugin/permission-management/basic-knowledge'},
-              { text: '💻 常用命令', link: '/prepare-plugin/permission-management/common-command' }
-            ]
-          },
-          {
-            text: '📱 基岩支持',
-            items: [
-              { text: '📥 安装插件', link: '/prepare-plugin/bedrock-support/installing-plugin' },
-              { text: '⚙️ 配置插件', link: '/prepare-plugin/bedrock-support/configuring-plugin' }
-            ]
-          }
-        ]
-      },
-      {
-        text: '📝 配置格式',
-        items: [
-          { text: '🔢 数据类型', link: '/config-format/data-type' },
-          { text: '📄 YAML', link: '/config-format/yaml' },
-          { text: '😇 JSON', link: '/config-format/json' }
+          { text: '🌱 Java发行版对比', link: '/basic-knowledge/java' },
+          { text: '🚀 JVM参数优化', link: '/server-maintenance/jvm-optimization' },
+          { text: '📚 Java文档', link: '/server-maintenance/javadoc' }
         ]
       },
       {
         text: '⚙️ 配置文件',
         items: [
-          { text: '⚙️ 配置插件', link: '/prepare-plugin/configuring-plugin' },
+          { text: '🔧 插件配置', link: '/prepare-plugin/configuring-plugin' },
           { text: '📜 server.properties', link: '/config-file/server.properties'},
           { text: '🧱 Bukkit & Spigot', link: '/config-file/bukkit-and-spigot' },
-          { text: '📜 类 Paper 服务端', link: '/config-file/paper-and-subcore' },
-          { text: '🌉 BungeeCord & Waterfall', link: '/config-file/bungeecord' },
+          { text: '📄 Paper系列', link: '/config-file/paper-and-subcore' },
+          { text: '🌉 BungeeCord', link: '/config-file/bungeecord' },
           { text: '⚡ Velocity', link: '/config-file/velocity' }
         ]
       },
       {
         text: '🚀 启动服务器',
         items: [
-          { text: '🔄 启动服务器', link: '/launch-server/launching-server'},
-          { text: '⚙️ 配置服务器', link: '/launch-server/configuring-server'},
-          { text: '🔗 连接到服务器', link: '/launch-server/connecting-to-server' }
+          { text: '🎯 启动指南', link: '/launch-server/launching-server'},
+          { text: '⚙️ 服务器配置', link: '/launch-server/configuring-server'},
+          { text: '🔗 连接服务器', link: '/launch-server/connecting-to-server' }
         ]
       },
       {
-        text: '服务器维护',
+        text: '🔧 服务器维护',
         items: [
-          { text: '🎍报错分析', link: '/server-maintenance/error-analysis' },
-          { text: '🫓性能分析', link: '/server-maintenance/performance-analysis' },
-          { text: '🏡面板搭建', link: '/server-maintenance/panel-building' },
-          { text: '🛡️反作弊', link: '/server-maintenance/anticheat' },
-          { text: '🧑‍💼安全防御', link: '/server-maintenance/security-defense' },
-          { text: '🌐Mc网络通信', link: '/advanced/minecraft-network'}
-        ]
-      },
-      {
-        text: '🚀 进阶内容',
-        items: [
-          { text: 'Linux',
-            items: [
-              { text: '基本介绍', link: '/advanced/linux' },
-              { text: '常用命令', link: '/advanced/linux-command' }
-            ]
-          },
-          { text: '数据库',
-            items: [
-              { text: '基本介绍', link: '/advanced/database' },
-              { text: '数据类型', link: '/advanced/database-datatype' },
-              { text: '常用命令', link: '/advanced/database-command' },
-              { text: 'MySQL', link: '/advanced/mysql' },
-              { text: 'PostgreSQL', link: '/advanced/postgresql' },
-              { text: 'Redis', link: '/advanced/redis' }
-            ]
-          },
-          {
-            text: 'Docker',
-            items: [
-              { text: '基本概念', link: '/advanced/containerization' },
-              { text: '安装', link: '/advanced/docker' },
-              { text: '常用指令', link: '/advanced/docker-command' },
-              { text: '网络', link: '/advanced/docker-network' },
-            ]
-          }
+          { text: '🐛 报错分析', link: '/server-maintenance/error-analysis' },
+          { text: '📊 性能分析', link: '/server-maintenance/performance-analysis' },
+          { text: '🖥️ 面板搭建', link: '/server-maintenance/panel-building' },
+          { text: '🛡️ 反作弊', link: '/server-maintenance/anticheat' },
+          { text: '🔒 安全防御', link: '/server-maintenance/security-defense' }
         ]
       }
     ]

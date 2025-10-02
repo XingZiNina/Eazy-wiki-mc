@@ -56,3 +56,6 @@ java -jar server.jar
 - [OmniTrack单端口也能用的面板插件](https://github.com/YYDSQAQ1024/OmniTrack)
 - [Voxesis新一代管理面板](https://gitee.com/Maskviva/voxesis)
 - [Opanel插件管理面板](https://github.com/opanel-mc/opanel)
+
+#### 用实用工具后
+![Dogedog](../../assets/image/dog.jpg)

@@ -18,19 +18,15 @@ OneBot 框架->>插件: 收到xxx的消息
 
 所以, 在安装一些基于 OneBot 协议的 QQ 机器人插件前, 你通常需要安装一个 OneBot 框架 (如 Lagrange.OneBot, Napcat, LLoneBot)
 
-:::warning 注意
+:::tip
 经过实验 Linux登录比Windows登录更加稳定 QQ账号不可为新注册账号
 在有Svip/大会员情况下 会减轻腾讯官方的检测
 所以 在此更推荐Lagrange框架
-:::
-
-:::warning 注意
-目前腾讯已全面管控带有bot特征的账号 因利用弱密码钻空子 恶意发布不当言论
-近段时间请不要再使用任何非官方Bot 以免带来账号以及财产损失！
+注意！一定要设置强密钥
 :::
 
 ### 2025.9.5 公网 OneBot 服务遭攻击事件杂谈
-[点我查看相关事件文章！！！](https://wesley-young.github.io/2025-09-05-attack-on-onebot-service)
+[点我查看相关事件文章](../advanced/youngsQQbot.md)
 
 ## 推荐
 
@@ -45,10 +41,6 @@ alazeprt编写的 QQ 机器人插件, 基于 OneBot 协议, 同时支持 Velocit
 ### [HuHoBot](https://www.minebbs.com/resources/huhobot-qq.9759/)
 
 官方机器人, 虽然功能匮乏, 但是使用官方的 API 更加安全稳定
-
-### [PlumBot](https://modrinth.com/plugin/plumbot)
-
-新兴的 QQ 机器人插件，基于 go-cqhttp 协议，功能更加丰富，不过稳定性较差
 
 ### [GUGUbot](https://www.minebbs.com/resources/aqqbot.9921/)
 

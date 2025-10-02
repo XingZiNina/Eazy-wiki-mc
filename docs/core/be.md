@@ -32,10 +32,10 @@
   - 缺点: 现如今社区活跃度差  原版特性不全 逐渐跟不上潮流
 
 ### 主流分支核心
-| 核心名称       | 支持游戏版本 | 链接   |JAVA版本| 状态   |
+| 核心名称       | 版本 | 链接   |JAVA版本| 状态   |
 |----------------|--------------|---------|---------|---------|
 | NukkitX   |最新 | https://www.minebbs.com/resources/nukkitx.32/|17＋| 活跃|
-| Nukkit-MOT(需自己构建)|1.21.93|https://github.com/MemoriesOfTime/Nukkit-MOT |17＋|活跃| 
+| Nukkit-MOT|最新|https://github.com/MemoriesOfTime/Nukkit-MOT |17＋|活跃| 
 | PowerNukkitX|  最新|https://github.com/PowerNukkitX/PowerNukkitX|17＋|活跃|
 | PetterM1Edition|最新 | https://github.com/PetteriM1/NukkitPetteriM1Edition/|17＋|活跃| 
 | Lumi|最新 | https://github.com/KoshakMineDEV/Lumi/|21＋|活跃|
@@ -47,4 +47,8 @@
   - 优点: 性能极高 解决了 Nukkit 系服务端在高负载环境下存在的问题 大量BDS新协议功能
   - 缺点: 现在仍处于实验阶段 不推荐正式开服
 - **下载链接**：https://github.com/AllayMC/Allay/releases
+
+#### Allay梗图
+![DogeAllay](../../assets/image/allay.jpg)
+
  
