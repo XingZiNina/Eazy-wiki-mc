@@ -48,17 +48,6 @@ Mint 基于 Folia，致力于提供更好的整体性能和原版机制
 - 版本适配速度: 快
 > 明日新星 国人团队发力了
 
-## LemonMint
-LemonMint 基于 Mint，努力让更多的Bukkit插件能够运行
-
-下载链接: https://github.com/MenthaMC/LemonMint/
-
-优点与缺点:
-- 优点: 插件兼容性有所提升
-- 缺点: 这类强兼服务端 稳定性差是通病
-- 版本适配速度: 快
-> 唯一的好处是在Mint的基础上努力让更多的Bukkit插件能够运行，并且在原基础上修复被破坏的特性和改进性能、并添加独特的特性
-
 ## Lophine
 Lophine是Luminol的下游分支，旨在 Folia 上实现更多生电的内容以及更多的功能
 
@@ -92,6 +81,13 @@ LightingLuminol 基于 Luminol 开发, 对插件的兼容性进行了优化
       在此借用某大佬B站的一句话
         要性能就选mint，要功能就选luminol，要生电就选lophine
 
+## Traium
+Traium 前身为MenthaMC项目体系的LemonMint，因某些原因退出MenthaMC，成为独立的项目
+
+下载链接: https://github.com/TraiumMC/Traium/
+
+- 版本适配速度: 快
+> 该服务端目前是刚起步的状态，虽然有LemonMint的牢本，但是依旧是一穷二白（
 
 ## 服务端推荐
 
