@@ -20,6 +20,10 @@
 如果你使用群组服, 该插件需要**同时**在代理服务器和子服安装
 :::
 
+### DGeyserMenuFlux
+跨时代的多版本菜单插件，革命性的 Minecraft 菜单插件，完美支持 Java 版与基岩版玩家
+下载链接: https://www.minebbs.com/resources/dgeysermenuflux.13644/
+
 ## BedrockPlayerSupport
 
 该插件为家 (home) 等制作了基岩版兼容的GUI界面, 使玩家在基岩版的体验更好

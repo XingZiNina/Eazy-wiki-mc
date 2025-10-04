@@ -40,6 +40,10 @@
 
 ## 实用插件
 
+### DGeyserMenuFlux
+跨时代的多版本菜单插件，革命性的 Minecraft 菜单插件，完美支持 Java 版与基岩版玩家
+下载链接: https://www.minebbs.com/resources/dgeysermenuflux.13644/
+
 ### LuckPerms
 最流行的权限插件, 功能强大且易于使用, 拥有网页编辑器, 方便服务器管理快速上手操作
 下载链接: https://luckperms.net/download
