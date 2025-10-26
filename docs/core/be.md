@@ -51,4 +51,9 @@
 #### Allay梗图
 ![DogeAllay](../../assets/image/allay.jpg)
 
- 
+## Serenity
+- **定位**​​：基于 Rust 和 TypeScript 构建的 Minecraft 基岩版服务器
+- **优点与缺点**：
+  - 优点: 性能极高
+  - 缺点: 尚未测试
+- **下载链接**：https://github.com/SerenityJS/serenity
