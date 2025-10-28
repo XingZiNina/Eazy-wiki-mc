@@ -103,11 +103,8 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇'
     },
-    // 移动端 - 外观
     darkModeSwitchLabel: '外观',
-    // 移动端 - 返回顶部
-    returnToTopLabel: '回到顶部',
-    // 移动端 - 菜单
+    returnToTopLabel: '返回顶部',
     sidebarMenuLabel: '菜单'
   }
 })
