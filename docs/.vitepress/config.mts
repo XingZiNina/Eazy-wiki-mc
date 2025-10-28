@@ -98,7 +98,6 @@ export default defineConfig({
   themeConfig: {
     outline: [2, 3],
     outlineTitle: '目录',
-    // 文章翻页
     docFooter: {
       prev: '上一篇',
       next: '下一篇'
