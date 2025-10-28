@@ -94,5 +94,20 @@ export default defineConfig({
   markdown: {
     theme: 'material-theme-palenight',
     lineNumbers: true
+  },
+  themeConfig: {
+    outline: [2, 3],
+    outlineTitle: '目录',
+    // 文章翻页
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇'
+    },
+    // 移动端 - 外观
+    darkModeSwitchLabel: '外观',
+    // 移动端 - 返回顶部
+    returnToTopLabel: '回到顶部',
+    // 移动端 - 菜单
+    sidebarMenuLabel: '菜单'
   }
 })
